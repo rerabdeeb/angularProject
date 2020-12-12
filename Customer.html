@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+
+    
+</head>
+
+<script src="Scripts/angular.js"></script>
+<script>
+    function Customer($scope) {
+        $scope.customerName = "Rehab";
+        $scope.customerCode = "1001";
+    }
+    var myApp = angular.module("myApp", []);
+    myApp.controller("Customerobj", Customer);
+
+</script>
+<body>
+    <div ng-app="myApp">
+        <div id="custscreen" ng-controller="Customerobj">
+            customer Name:-<input ng-model="customerName" type="text" id="customerName" /><br />
+            customer Code:-<input ng-model="customerCode" type="text" id="customerCode" /><br />
+            <div id="divCustomerName">{{customerName}}</div>
+            <div id="divCustomerCode">{{customerCode}}</div><br />
+        </div><br />
+        <div id="custscreen" ng-controller="Customerobj">
+            customer Name:-<input ng-model="customerName" type="text" id="customerName" /><br />
+            customer Code:-<input ng-model="customerCode" type="text" id="customerCode" />
+            <div id="divCustomerName">{{customerName}}</div>
+            <div id="divCustomerCode">{{customerCode}}</div><br />
+        </div>
+    </div>
+
+</body>
+</html>
+

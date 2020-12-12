@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1300
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "AngularCustomerProject", ".", "{472043E8-196A-42B9-9B76-E376CA5B033E}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_54859"
+		Debug.AspNetCompiler.PhysicalPath = "..\AngularCustomerProject\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54859\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_54859"
+		Release.AspNetCompiler.PhysicalPath = "..\AngularCustomerProject\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54859\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "54859"
+		SlnRelativePath = "..\AngularCustomerProject\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{472043E8-196A-42B9-9B76-E376CA5B033E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{472043E8-196A-42B9-9B76-E376CA5B033E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {755878C2-F6E6-4672-B039-2E9986868335}
+	EndGlobalSection
+EndGlobal
